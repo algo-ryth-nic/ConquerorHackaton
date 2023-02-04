@@ -1,4 +1,4 @@
-import siemensLogo from '../assets/siemens-logo.png';
+import conqueror from '../assets/conqueror-logo.png';
 
 export default function Footer() {
   return (
@@ -6,21 +6,21 @@ export default function Footer() {
       <div className="p-8 mx-auto flex items-center sm:flex-row flex-col">
         {/* <!-- logo --> */}
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src={siemensLogo} alt="siemens-logo" className="h-12 inline-block ml-2" />
+        <img src={conqueror} alt="siemens-logo" className="h-12 inline-block ml-2" />
           {/* <h1 className="text-xl font-bold uppercase text-blue-600">Derma360<sup className="text-blue-700">+</sup></h1> */}
 
         </a>
 
         {/* <!-- About --> */}
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2022 DERMA360<sup>+</sup> —
+          © 2023 DERMA360<sup>+</sup> —
           <a
             href="/"
             className="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            SHIFT | Siemens Healthineers
+            Conqueror
           </a>
         </p>
         {/* <!-- social --> */}
